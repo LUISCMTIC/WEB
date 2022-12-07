@@ -1,0 +1,193 @@
+<html> 
+<head> 
+<link rel="shortcut icon" href="favicon.png">
+<meta charset="utf-8">
+<title> Inicio </title>
+<style> div{width :100px;
+height :100px;
+background :grey;
+color :black;
+font-size :30px; }
+.enlaces1{
+width :170px;
+background :grey;
+height :70px;
+color :white;
+font-size :30px;
+text-align: center;
+float: right;
+line-height: 30px;
+	}
+.enlaces2{
+background :grey;
+width :170px;
+height :70px;
+color :white;
+font-size :30px;
+text-align: center;
+float: right;
+line-height: 30px;
+	}
+.enlaces3{
+background :grey;
+width :170px;
+height :70px;
+color :white;
+font-size :30px;
+text-align: center;
+float: right;
+line-height: 30px;
+	}
+.enlaces4{
+background :grey;
+width :170px;
+height :70px;
+color :white;
+font-size :30px;
+text-align: center;
+float: right;
+line-height: 30px;
+	}
+.título{
+	font-size :100px;
+	font-family :"Lilita One";
+	text-align : center;
+	}
+.info{
+	font-size :20px;
+	text-align: justify;
+	left :1000px;
+	}
+.slider-container {
+  display: flex;
+  width: 50%;
+  height: 50vh;
+  overflow-x: scroll;
+}
+.slider-container img {
+  flex: 0 0 100%;
+  width: 100%;
+  object-fit: cover;
+}
+</style>
+<Script Language="JavaScript">
+	function DameLaFechaHora() {
+  	var hora = new Date()
+  	var hrs = hora.getHours();
+  	var min = hora.getMinutes();
+  	var hoy = new Date();
+  	var m = new Array();
+  	var d = new Array()
+  	var an= hoy.getYear();
+  	m[0]="Enero";  m[1]="Febrero";  m[2]="Marzo";
+  	m[3]="Abril";   m[4]="Mayo";  m[5]="Junio";
+  	m[6]="Julio";	m[7]="Agosto";   m[8]="Septiembre";
+  	m[9]="Octubre";   m[10]="Noviembre"; m[11]="Diciembre";
+	
+	if (min<10){
+  	document.write("Son las "+hrs+":0"+min+" (");
+  	document.write(hoy.getDate());
+  	document.write(" de ");
+  	document.write(m[hoy.getMonth()]);
+  	document.write(")");
+	}
+	
+	else{
+		document.write("Son las "+hrs+":"+min+" (");
+  	document.write(hoy.getDate());
+  	document.write(" de ");
+  	document.write(m[hoy.getMonth()]);
+  	document.write(")");
+	}
+	
+	}
+</Script>
+</head>
+<body>
+<body background="https://w0.peakpx.com/wallpaper/119/316/HD-wallpaper-brown-gradient-brown-gradient.jpg" style="background-repeat: no-repeat; background-position: center center; background-size: cover">
+<img src="https://uruguayeduca.anep.edu.uy/sites/default/files/2017-06/literatura_5.jpg" width="1450" height="400">
+<a href="contacto.html" class="enlaces4"> Contacta con nosotros </a>
+<a href="vídeos.html" class="enlaces3"> Vídeos </a>
+<a href="shopping.html" class="enlaces2"> Shopping </a>
+<a href="index.html" class="enlaces1"> Inicio </a>
+<br>
+<a class="título"><p> Gabriel García Márquez</p></a>
+<h1 align="center"> Biografía del escritor colombiano</h1>
+<br>
+<table  cellspacing="20" cellpadding="20" width="1400" height="400">
+<TR><TD class="info"><p>	Gabriel José de la Concordia García Márquez (1927-2014) fue un escritor 
+y periodista colombiano. Reconocido principalmente por sus novelas y cuentos, también escribió narrativa de no ficción, discursos, reportajes, 
+críticas cinematográficas y memorias. Fue conocido como Gabo, y familiarmente y por sus amigos como Gabito.
+​ En 1982 recibió el Premio Nobel de Literatura «por sus novelas e historias cortas, en las que lo fantástico y 
+lo real se combinan en un mundo ricamente compuesto de imaginación, lo que refleja la vida y los conflictos de un continente».</p></TD>
+<TD align="center"><img src="https://www.biografiasyvidas.com/biografia/g/fotos/garcia_marquez_gabriel.jpg" width="300" height="310"></TD></TR>
+</table>
+<hr>
+
+<table  cellspacing="20" cellpadding="20" width="1400" height="400">
+<TR><TD><img src= "https://upload.wikimedia.org/wikipedia/commons/0/0f/Gabriel_Garcia_Marquez.jpg" width="300" height="400"></TD>
+<TD class="info"><p>	Está relacionado de manera inherente con el realismo mágico
+ y su obra más conocida, la novela Cien años de soledad, es considerada una de las más representativas de
+  este movimiento literario, e incluso se considera que por el éxito de la novela es que tal término se 
+  aplica a la literatura surgida a partir de los años 1960 en América Latina.​ En 2007 la Real Academia 
+ Española y la Asociación de Academias de la Lengua Española publicaron una edición popular conmemorativa 
+ de esta obra, por considerarla parte de los grandes clásicos hispánicos de todos los tiempos. Fue famoso 
+ tanto por su genialidad como escritor como por su postura política. ​Su amistad con el líder cubano Fidel 
+ Castro fue bastante conocida en el mundo literario y político.</p></TD></TR>
+</table>
+<hr>
+<h1 align="center"> <i>Cien años de soledad</i>, su obra cumbre </h1>
+<table  cellspacing="20" cellpadding="20" width="1400" height="400">
+<TR><TD class="info"><p>	La novela Cien años de soledad fue escrita por García Márquez durante dieciocho meses,6​ entre 1965 y 
+1966 en la Ciudad de México, y se publicó por primera vez a mediados de 1967 en Buenos Aires. La idea original de esta 
+obra surge en 1952 durante un viaje que realiza el autor a su pueblo natal, Aracataca, en compañía de su madre.</p><br>
+<p> Cien años de soledad relata la historia de una aldea imaginaria, Macondo, y de la estirpe de sus fundadores, los Buendía. 
+La novela se presenta dividida en veinte secuencias narrativas que carecen de título e incluso de numeración. Si bien es cierto que 
+los frecuentes saltos hacia atrás y hacia adelante caracterizan la técnica narrativa de Cien años de soledad, 
+hay que decir que tales retrospecciones y anticipaciones se producen principalmente en el interior de cada secuencia; los distintos 
+capítulos refieren los sucesos en orden cronológico, y pueden agruparse atendiendo a los acontecimientos de fondo que marcan la vida 
+de la aldea y al protagonismo que adquieren ciertos personajes o generaciones.</p></TD>
+<TD align="center"><img src="https://phantom-telva.unidadeditorial.es/f29ea11dfb8a26a7cf9850f836b41eb5/crop/0x34/799x514/resize/828/f/jpg/assets/multimedia/imagenes/2020/12/10/16075997705699.jpg" width="400" height="310"></TD></TR>
+</table>
+<br>
+<br>
+<br>
+<center>
+<div class="slider-container">  
+  <img
+    class="slider-item"
+    src="https://media.revistavanityfair.es/photos/60e84e9efc86fee32f97d3ee/master/w_1600%2Cc_limit/17021.jpg"
+  />
+  <img
+    class="slider-item"
+    src="https://www.las2orillas.co/wp-content/uploads/2020/04/gabo-redes.jpg"
+  />
+  <img
+    class="slider-item"
+    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgcvOqVYp84z-5-rUnPCzD5gfx9sNAe0Ys0g&usqp=CAU"
+  />
+    <img
+    class="slider-item"
+    src="https://radionacional-v3.s3.amazonaws.com/s3fs-public/node/article/field_image/gabo.jpg"
+  />
+    <img
+    class="slider-item"
+    src="https://e00-elmundo.uecdn.es/especiales/cultura/gabriel-garcia-marquez/flv/video.jpg"
+  />
+</div> 
+</center> 
+<br>
+<br>
+<br>
+<br>
+<p align="center"><font size="20"> ¡Conoce la obra de Gabo en nuestra página web y hazte con sus novelas en la sección de shopping!</font></p>
+<br><br><br><br><br><br>
+<center>
+<h2 class="hora">
+<script>
+DameLaFechaHora();
+</script>
+</h2>
+</center>
+</body>
+</html>

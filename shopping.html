@@ -1,0 +1,127 @@
+<html> 
+<head> 
+<link rel="shortcut icon" href="favicon.png">
+<meta charset="utf-8">
+<title> Shopping </title>
+<style> div{width :100px;
+height :100px;
+background :grey;
+color :black;
+font-size :30px; }
+.enlaces1{
+width :170px;
+background :grey;
+height :70px;
+color :white;
+font-size :30px;
+text-align: center;
+float: right;
+line-height: 30px;
+	}
+.enlaces2{
+background :grey;
+width :170px;
+height :70px;
+color :white;
+font-size :30px;
+text-align: center;
+float: right;
+line-height: 30px;
+	}
+.enlaces3{
+background :grey;
+width :170px;
+height :70px;
+color :white;
+font-size :30px;
+text-align: center;
+float: right;
+line-height: 30px;
+	}
+.enlaces4{
+background :grey;
+width :170px;
+height :70px;
+color :white;
+font-size :30px;
+text-align: center;
+float: right;
+line-height: 30px;
+	}
+.título{
+	font-size :80px;
+	font-family :"Lilita One";
+	text-align : center;
+	}
+.info{
+	font-size :30px;
+	text-align: justify;
+	}
+</style>
+<Script Language="JavaScript">
+	function DameLaFechaHora() {
+  	var hora = new Date()
+  	var hrs = hora.getHours();
+  	var min = hora.getMinutes();
+  	var hoy = new Date();
+  	var m = new Array();
+  	var d = new Array()
+  	var an= hoy.getYear();
+  	m[0]="Enero";  m[1]="Febrero";  m[2]="Marzo";
+  	m[3]="Abril";   m[4]="Mayo";  m[5]="Junio";
+  	m[6]="Julio";	m[7]="Agosto";   m[8]="Septiembre";
+  	m[9]="Octubre";   m[10]="Noviembre"; m[11]="Diciembre";
+	
+	if (min<10){
+  	document.write("Son las "+hrs+":0"+min+" (");
+  	document.write(hoy.getDate());
+  	document.write(" de ");
+  	document.write(m[hoy.getMonth()]);
+  	document.write(")");
+	}
+	
+	else{
+		document.write("Son las "+hrs+":"+min+" (");
+  	document.write(hoy.getDate());
+  	document.write(" de ");
+  	document.write(m[hoy.getMonth()]);
+  	document.write(")");
+	}
+	
+	}
+</Script>
+</head>
+<body>
+<body background="https://w0.peakpx.com/wallpaper/119/316/HD-wallpaper-brown-gradient-brown-gradient.jpg" style="background-repeat: no-repeat; background-position: center center; background-size: cover">
+<img src="https://uruguayeduca.anep.edu.uy/sites/default/files/2017-06/literatura_5.jpg" width="1450" height="400">
+<a href="contacto.html" class="enlaces4"> Contacta con nosotros </a>
+<a href="vídeos.html" class="enlaces3"> Vídeos </a>
+<a href="shopping.html" class="enlaces2"> Shopping </a>
+<a href="index.html" class="enlaces1"> Inicio </a>
+<br><br>
+<p class="título"> Obra narrativa: Novelas más destacadas </p>
+<table  cellspacing="120" cellpadding="0" width="" height="">
+<TR align="center"><TD><h1><I> Cien años de soledad</I> </h1></TD><TD> <h1><I>El amor en los tiempo de cólera</I> </h1></TD><TD> <h1><I>Crónica de una muerte anunciada</I></h1></TD></TR>
+<TR align="center"><TD><a href="https://www.casadellibro.com/libro-cien-anos-de-soledad/9788497592208/873717"><img src="https://m.media-amazon.com/images/I/A1KbLZ3jhvS.jpg"width="300" height="390"></a>
+</TD><TD><a href="https://www.casadellibro.com/libro-el-amor-en-los-tiempos-del-colera/9788497592451/873718"><img src="https://m.media-amazon.com/images/I/912zZTiN6JL.jpg"width="300" height="390"></TD>
+<TD><a href="https://www.casadellibro.com/libro-cronica-de-una-muerte-anunciada/9788497592437/873720"><img src="https://m.media-amazon.com/images/I/81muwXYm92L.jpg"width="300" height="390"></TD></TR>
+<TR align="center"><TD><h1> <I> El coronel no tiene quien le escriba</I></h1></TD><TD> <h1><I>La hojarasca </</I><h1></TD><TD> <h1> <I>Relato de un náufrago</I> </h1></TD></TR>
+<TR align="center"><TD><a href="https://www.casadellibro.com/libro-el-coronel-no-tiene-quien-le-escriba/9788497592352/873719"><img src="https://m.media-amazon.com/images/I/91lwhFD6joL.jpg"width="300" height="390"></TD>
+<TD><a href="https://www.casadellibro.com/libro-la-hojarasca/9788497592475/873729"><img src="https://m.media-amazon.com/images/I/51nRYYyVxFL.jpg"width="300" height="390"></TD>
+<TD><a href="https://www.casadellibro.com/libro-relato-de-un-naufrago/9788490323762/2080839"><img src="https://imagessl2.casadellibro.com/a/l/t7/62/9788490323762.jpg"width="300" height="390"></TD></TR>
+</table>
+<hr>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<center>
+<h2 class="hora">
+<script>
+DameLaFechaHora();
+</script>
+</h2>
+</center>
+</body>
+</html>

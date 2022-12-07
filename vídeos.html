@@ -1,0 +1,130 @@
+<html> 
+<head> 
+<link rel="shortcut icon" href="favicon.png">
+<meta charset="utf-8">
+<title> Vídeos </title>
+<style> 
+div{
+	width :100px;
+height :100px;
+background :grey;
+color :black;
+font-size :30px; }
+.enlaces1{
+width :170px;
+background :grey;
+height :70px;
+color :white;
+font-size :30px;
+text-align: center;
+float: right;
+line-height: 30px;
+	}
+.enlaces2{
+background :grey;
+width :170px;
+height :70px;
+color :white;
+font-size :30px;
+text-align: center;
+float: right;
+line-height: 30px;
+	}
+.enlaces3{
+background :grey;
+width :170px;
+height :70px;
+color :white;
+font-size :30px;
+text-align: center;
+float: right;
+line-height: 30px;
+	}
+.enlaces4{
+background :grey;
+width :170px;
+height :70px;
+color :white;
+font-size :30px;
+text-align: center;
+float: right;
+line-height: 30px;
+	}
+.título{
+	font-size :100px;
+	font-family :"Lilita One";
+	text-align : center;
+	}
+.info{
+	font-size :70px;
+	text-align: center;
+	left :1000px;
+	}
+b{
+	color: bleck;	
+	}
+</style>
+<Script Language="JavaScript">
+	function DameLaFechaHora() {
+  	var hora = new Date()
+  	var hrs = hora.getHours();
+  	var min = hora.getMinutes();
+  	var hoy = new Date();
+  	var m = new Array();
+  	var d = new Array()
+  	var an= hoy.getYear();
+  	m[0]="Enero";  m[1]="Febrero";  m[2]="Marzo";
+  	m[3]="Abril";   m[4]="Mayo";  m[5]="Junio";
+  	m[6]="Julio";	m[7]="Agosto";   m[8]="Septiembre";
+  	m[9]="Octubre";   m[10]="Noviembre"; m[11]="Diciembre";
+	
+	if (min<10){
+  	document.write("Son las "+hrs+":0"+min+" (");
+  	document.write(hoy.getDate());
+  	document.write(" de ");
+  	document.write(m[hoy.getMonth()]);
+  	document.write(")");
+	}
+	
+	else{
+		document.write("Son las "+hrs+":"+min+" (");
+  	document.write(hoy.getDate());
+  	document.write(" de ");
+  	document.write(m[hoy.getMonth()]);
+  	document.write(")");
+	}
+	
+	}
+</Script>
+</head>
+<body>
+<body background="https://w0.peakpx.com/wallpaper/119/316/HD-wallpaper-brown-gradient-brown-gradient.jpg" style="background-repeat: no-repeat; background-position: center center; background-size: cover">
+<img src="https://uruguayeduca.anep.edu.uy/sites/default/files/2017-06/literatura_5.jpg" width="1450" height="400">
+<a href="contacto.html" class="enlaces4"> Contacta con nosotros </a>
+<a href="vídeos.html" class="enlaces3"> Vídeos </a>
+<a href="shopping.html" class="enlaces2"> Shopping </a>
+<a href="index.html" class="enlaces1"> Inicio </a>
+<br>
+<a class="título"><p> Vídeos y recursos extra</p></a>
+<br>
+<table  cellspacing="0" cellpadding="40" width="1400" height="400">
+<tr align="center"> <td width="33%"><iframe width="372" height="247" src="https://www.youtube.com/embed/TLkheKuKjD8" title="Gabriel García Márquez: «Jubilemos la ortografía»" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </td> 
+<td width="33%"><iframe width="372" height="247" src="https://www.youtube.com/embed/Cb7CPsPoGn4" title="MÉXICO | Nos adentramos en la BIBLIOTECA personal de Gabriel García MÁRQUEZ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </td>
+<td width="33%"><iframe width="372" height="247" src="https://www.youtube.com/embed/oUlalTgTpgE" title="Gabriel García Márquez: La Biografía | Descubre el Mundo de la Literatura" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </td> </tr>
+
+<tr align="center"> <td width="33%"><iframe width="372" height="247" src="https://www.youtube.com/embed/1520QZIclmI" title="Gabriel García Márquez entrevista a Pablo Neruda" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </td> 
+<td width="33%"><iframe width="372" height="247" src="https://www.youtube.com/embed/vuBfz5DNyM4" title="Gabriel García Márquez - El Poder de la Palabra" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </td>
+<td width="33%"><iframe width="372" height="247" src="https://www.youtube.com/embed/F5OPw6NW6Eg" title="Gabriel García Márquez - De la Realidad a la Literatura" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </td> </tr>
+</table>
+<p class="info"><a href="https://www.gabrielgarciamarquezfundacion.com/" > Página web oficial Gabriel García Márquez</a></p>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<center>
+<h2 class="hora">
+<script>
+DameLaFechaHora();
+</script>
+</h2>
+</center>
+</body>
+</html>
+
